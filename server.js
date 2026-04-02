@@ -10,7 +10,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 const PORT = process.env.PORT || 3000;
 
-const YTDLP_PATH = "/usr/local/bin/yt-dlp"; // adjust if needed
+const YTDLP_PATH = "./yt-dlp";
 
 // 🎬 ANALYZE VIDEO (get title, thumbnail, formats)
 app.post("/analyze", (req, res) => {
