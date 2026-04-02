@@ -1,2 +1,23 @@
+# Node modules
 node_modules/
 
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# Downloads (IMPORTANT for your project)
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.part
+
+# Optional: ignore all downloads folder if you create one
+downloads/
